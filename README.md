@@ -6,7 +6,7 @@ Uma aplicação moderna de Pokédex construída com React que permite descobrir 
 
 ## Demonstração ao Vivo
 
-[Acesse a Aplicação Pokédex ao Vivo](link-to-live-demo)
+[Acesse a Aplicação Pokédex ao Vivo](https://d-s-web-i-trabalho-01.vercel.app/)
 
 ## Capturas de Tela
 
