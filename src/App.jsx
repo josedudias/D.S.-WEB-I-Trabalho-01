@@ -13,21 +13,19 @@ function App() {
     <Suspense fallback={<Loader />}>
       <PokemonModalProvider>
         <div className="wrapper">
-          <h1 className="logo-pokemon">Pokédex</h1>
-
+          <h1 className="logo-pokemon">PokéCollector</h1>
           <TypesBar toggleType={setType} />
-          <PokemonsContainer type={type} />
-        </div>
-
-        <Modal />
-        <footer className="footer">
-          <div className="container">
-            <p>
-              &copy; {new Date().getFullYear()} Feito por José Eduardo Dias
-              Rufino.
-            </p>
+          <div className="main-content">
+            <PokemonsContainer type={type} />
           </div>
-        </footer>
+          <footer className="footer">
+            <p>
+              &copy; {new Date().getFullYear()} Desenvolvido por José Eduardo
+              Dias Rufino. Todos os direitos reservados.
+            </p>
+          </footer>
+        </div>
+        <Modal />
       </PokemonModalProvider>
     </Suspense>
   );
